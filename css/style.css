@@ -13303,7 +13303,7 @@ select:-webkit-autofill:focus {
   display: flex;
   width: 100%;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-end;
   gap: 20px;
   flex-grow: 1;
@@ -13318,6 +13318,14 @@ select:-webkit-autofill:focus {
   margin-bottom: auto;
   margin-top: auto;
 }
+.b2b-questionnaire .wrap-image {
+  width: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: block;
+  margin-top: auto;
+  align-self: center;
+}
 .b2b-questionnaire .text h1, .b2b-questionnaire .text .h1 {
   color: #141414;
   text-align: center;
@@ -13326,6 +13334,17 @@ select:-webkit-autofill:focus {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 0;
+}
+.b2b-questionnaire .text p {
+  color: #454B60;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 .b2b-questionnaire .wrap-button {
@@ -13870,8 +13889,7 @@ footer {
 
 .subscription-apple-pay .section-inner {
   width: 100%;
-  margin-top: 78px;
-  margin-bottom: 100px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13946,7 +13964,7 @@ footer {
   display: none;
 }
 
-.card {
+.subscription-apple-pay .card {
   border-radius: 16px;
   border: 1px solid #454B60;
   transition: all 0.2s ease;

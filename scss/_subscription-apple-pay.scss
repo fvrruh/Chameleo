@@ -11,8 +11,7 @@
 
 .subscription-apple-pay .section-inner {
     width: 100%;
-    margin-top: 78px;
-    margin-bottom: 100px;
+    margin:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +84,7 @@ line-height: normal;
     display: none;
 }
 
-.card {
+.subscription-apple-pay .card {
     border-radius: 16px;
     border: 1px solid #454B60;
     transition: all 0.2s ease;
