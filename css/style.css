@@ -12338,7 +12338,7 @@ select:-webkit-autofill:focus {
 }
 
 .btn-skip {
-  color: #040346;
+  color: #141414;
   text-align: center;
   font-family: "Satoshi", sans-serif;
   font-size: 16px;
@@ -12356,6 +12356,28 @@ select:-webkit-autofill:focus {
   transition: all 0.3s ease;
 }
 .btn-skip:hover {
+  color: #040346;
+}
+
+.btn-skip-darkblue {
+  color: #040346;
+  text-align: center;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-skip-darkblue:hover {
   color: #141414;
 }
 
@@ -12441,6 +12463,10 @@ select:-webkit-autofill:focus {
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+.btn-back:hover {
+  border: 1px solid #d8dadc;
+  background-color: #d8dadc;
 }
 .btn-back:hover svg {
   fill: #040346;
@@ -12799,7 +12825,6 @@ select:-webkit-autofill:focus {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  border-radius: 20px;
   border: 1px solid #cecece;
   background-color: #fff;
   -webkit-border-radius: 20px;
@@ -12843,7 +12868,6 @@ select:-webkit-autofill:focus {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  border-radius: 20px;
   border: 1px solid #cecece;
   background-color: #fff;
   -webkit-border-radius: 20px;
@@ -12887,7 +12911,6 @@ select:-webkit-autofill:focus {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  border-radius: 20px;
   border: 1px solid #cecece;
   background-color: #fff;
   -webkit-border-radius: 20px;
@@ -12911,6 +12934,138 @@ select:-webkit-autofill:focus {
   display: block;
 }
 .btn-email:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.btn-pay-by-card {
+  color: #141414;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 100%;
+  height: 62px;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid #cecece;
+  background-color: #fff;
+  white-space: nowrap;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-pay-by-card::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icon-card.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+}
+.btn-pay-by-card:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.btn-pay-apple-card {
+  color: #141414;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 100%;
+  height: 62px;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid #cecece;
+  background-color: #fff;
+  white-space: nowrap;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-pay-apple-card::after {
+  content: "";
+  width: 60px;
+  height: 28px;
+  background-image: url(../images/icon-apple-pay.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+}
+.btn-pay-apple-card:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.btn-pay-google-card {
+  color: #141414;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 100%;
+  height: 62px;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid #cecece;
+  background-color: #fff;
+  white-space: nowrap;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-pay-google-card::after {
+  content: "";
+  width: 60px;
+  height: 28px;
+  background-image: url(../images/icon-google-pay.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+}
+.btn-pay-google-card:hover {
   border: 1px solid #fff;
   background-color: #fff;
 }
@@ -13691,7 +13846,7 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 42px;
+  gap: 41px;
   padding-top: 52px;
   padding-left: 20px;
   padding-right: 20px;
@@ -13740,6 +13895,9 @@ select:-webkit-autofill:focus {
   align-items: flex-start;
   gap: 12px;
   align-self: stretch;
+}
+.sign-up .wrap-button.wrap-button-type-2 {
+  gap: 32px;
 }
 .sign-up .text-help {
   width: 100%;
@@ -13853,6 +14011,159 @@ select:-webkit-autofill:focus {
 }
 .sign-up-in-username .wrap-button {
   margin-top: 74px;
+}
+
+.subscription-apple-pay {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100dvh;
+  position: relative;
+  z-index: 2;
+}
+.subscription-apple-pay .top-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.subscription-apple-pay .section-inner {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  align-self: stretch;
+}
+.subscription-apple-pay .wrap-header-benefits {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.subscription-apple-pay .wrap-header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.subscription-apple-pay .wrap-header h1, .subscription-apple-pay .wrap-header .h1 {
+  color: #141414;
+  align-self: stretch;
+  font-family: "Neue-Regrade", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.subscription-apple-pay .wrap-header .text {
+  color: #454b60;
+  align-self: stretch;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.subscription-apple-pay .benefits-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.subscription-apple-pay .benefits-list .benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+  color: #454b60;
+  text-overflow: ellipsis;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.subscription-apple-pay .subscription-options {
+  width: 100%;
+}
+.subscription-apple-pay .subscription-options .subscription-options-row {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscription-apple-pay .subscription-options .subscription-options-row .col {
+  width: calc(50% - 16px);
+}
+.subscription-apple-pay .subscription-options .subscription-card {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+.subscription-apple-pay .subscription-options .subscription-radio {
+  display: none;
+}
+.subscription-apple-pay .subscription-options .card {
+  border-radius: 16px;
+  border: 1px solid #454b60;
+  transition: all 0.3s ease;
+  height: 146px;
+  background-color: transparent !important;
+}
+.subscription-apple-pay .subscription-options .card .card-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.subscription-apple-pay .subscription-options .card .card-body .plan-title {
+  color: #454b60;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+  text-align: left;
+}
+.subscription-apple-pay .subscription-options .card .card-body .plan-price {
+  color: #454b60;
+  font-family: "Satoshi", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 123.077% */
+}
+.subscription-apple-pay .subscription-options .card .card-body .plan-description {
+  margin-top: auto;
+  color: #454b60;
+  font-family: "Satoshi", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.subscription-apple-pay .subscription-options .subscription-radio:checked + .card {
+  border-color: #08add2;
+}
+.subscription-apple-pay .subscription-options .subscription-radio:checked + .card .plan-title,
+.subscription-apple-pay .subscription-options .subscription-radio:checked + .card .plan-price,
+.subscription-apple-pay .subscription-options .subscription-radio:checked + .card .plan-description {
+  color: #08add2;
+}
+.subscription-apple-pay .payment-buttons {
+  width: 100%;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
